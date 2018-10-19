@@ -4,6 +4,12 @@ A-Frame module for HTC Vive featuring several navigation modes.
 
 # Usage
 
+```
+<a-entity id="cameraRig" position="300 200 300" vive-control-rig>
+  <a-camera id="viewpoint"></a-camera>
+</a-entity>
+```
+
 ## Menu (left hand)
 
 | Button | Action |
