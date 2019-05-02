@@ -14,8 +14,8 @@ A-Frame module for HTC Vive featuring several navigation modes.
 
 | Button | Action |
 | ------------- |:-------|
-| Trackpad | switch through modes |
-| Trigger | activate mode |
+| Trigger | switch through modes |
+| Trackpad | activate mode |
 
 ## Navigation mode: Laser
 
@@ -29,14 +29,18 @@ A-Frame module for HTC Vive featuring several navigation modes.
 
 | Button | Action |
 |--------|--------|
-| Grip Button | move forward |
-| Trigger + Grip Button | move backward |
+| Trigger | move in viewing direction |
+| Trigger + Trackpad | move in viewing direction backwards |
+| Trackpad | turn left |
+| Grip | turn right |
+
 
 ## Navigation mode: fly-hand
 
 | Button | Action |
 |--------|--------|
-| Trigger | rotate left |
-| Trackpad | rotate right |
-| Grip Button | move forward |
-| Trigger + Grip Button | move backward |
+| Trigger | move in direction of laser |
+| Trigger + Trackpad | move in direction of laser backwards |
+| Trackpad | turn left |
+| Grip Button | turn right |
+
